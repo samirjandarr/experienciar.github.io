@@ -1,0 +1,74 @@
+@media screen and (max-width: 500px) {
+     *{
+      margin: 0%;
+      padding: 0%;
+      font-family: 'Rubik', sans-serif;
+
+     }
+   body{
+        background-color: black;
+     }
+
+header{
+   background-color: #FF0571;
+   height: 100px;
+}
+.titulo{
+   display: flex;
+   justify-content: center;
+}
+
+
+
+     .logo{
+      width: 200px;
+      height: 200px;
+      padding-top: 7%;
+     }
+
+     p{
+      color: white;
+      font-family: 'Rubik', sans-serif;
+      padding: 5%;
+      padding-top: 10%;
+      margin: 2%;
+      text-align: center;
+     }
+     
+     .botones{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+     }
+
+     a{
+      text-decoration: none;
+      background-color: #FF0571;
+      border-radius: 2px;
+      padding: 2%;
+      color: white;
+      margin: 5%;
+      text-align: center;
+     }
+
+h2{
+   color: white;
+   font-size:large;
+   text-align: center;
+   padding-top: 5%;
+   font-family: 'Chivo Mono', monospace;
+}
+
+.odd{
+   padding: 1%;
+   margin: 1%;
+}
+
+.redes{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+}
+
